@@ -1,9 +1,10 @@
-
-
+import Header from "./components/Header";
+import AllPosts from "./components/Posts/AllPosts";
 function App() {
   return (
-    <div className="App">
-
+    <div className="app">
+      <Header />
+      <AllPosts />
     </div>
   );
 }
